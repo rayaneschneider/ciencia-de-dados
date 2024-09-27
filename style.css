@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+:root{
+--bg-color: #433878 ;
+--primary-color: #7E60BF ;
+--secondary-color: #E4B1F0;
+--tipo-fonte: "Edu AU VIC WA NT Guides", cursive; 
+}
+
+body{
+    background-color: var(--bg-color);
+    color:var(--primary-color);
+    font-family: var(--tipo-fonte);
+    height: 100vh;
+    margin:0;
+}
+header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;/*espaço interno do header*/
+}
+h1{
+    font-size: 2rem;/*tamanho da letra, medida rem do :root*/
+    color: var(--bg-color);
+    font-weight: 700; /*wheigt define o negrito*/
+}
+nav{
+    display: flex; /*área flexível navegável*/
+    justify-content: center; 
+    font-weight: 400;
+}
+nav a{ /*link estático*/
+    text-decoration: none; /*tirar o sublinhado*/
+    color: var(--bg-color);
+    margin:0 2rem 1rem 0rem; 
+    font-size: 1.2rem;
+
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
