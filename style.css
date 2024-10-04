@@ -27,7 +27,7 @@ h1{
 nav{
     display: flex; /*área flexível navegável*/
     justify-content: center; 
-    font-weight: 400;
+    font-weight: 500;
 }
 nav a{ /*link estático*/
     text-decoration: none; /*tirar o sublinhado*/
