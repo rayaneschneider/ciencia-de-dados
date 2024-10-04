@@ -20,7 +20,7 @@ header{
     padding: 1px;/*espaço interno do header*/
 }
 h1{
-    font-size: 2rem;/*tamanho da letra, medida rem do :root*/
+    font-size: 5rem;/*tamanho da letra, medida rem do :root*/
     color: var(--bg-color);
     font-weight: 700; /*wheigt define o negrito*/
 }
